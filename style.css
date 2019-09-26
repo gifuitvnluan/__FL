@@ -2,22 +2,22 @@
 
 @font-face {
     font-family: 'Caveat Brush';
-    src: url('CaveatBrush-Regular.eot');
-    src: url('CaveatBrush-Regular.eot?#iefix') format('embedded-opentype'),
-        url('CaveatBrush-Regular.woff') format('woff'),
-        url('CaveatBrush-Regular.ttf') format('truetype'),
-        url('CaveatBrush-Regular.svg#CaveatBrush-Regular') format('svg');
+    src: url('./assets/fonts/CaveatBrush-Regular.eot');
+    src: url('./assets/fonts/CaveatBrush-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/CaveatBrush-Regular.woff') format('woff'),
+        url('./assets/fonts/CaveatBrush-Regular.ttf') format('truetype'),
+        url('./assets/fonts/CaveatBrush-Regular.svg#CaveatBrush-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'UTM Charlotte';
-    src: url('UTMCharlotte.eot');
-    src: url('UTMCharlotte.eot?#iefix') format('embedded-opentype'),
-        url('UTMCharlotte.woff') format('woff'),
-        url('UTMCharlotte.ttf') format('truetype'),
-        url('UTMCharlotte.svg#UTMCharlotte') format('svg');
+    src: url('./assets/fonts/UTMCharlotte.eot');
+    src: url('./assets/fonts/UTMCharlotte.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/UTMCharlotte.woff') format('woff'),
+        url('./assets/fonts/UTMCharlotte.ttf') format('truetype'),
+        url('./assets/fonts/UTMCharlotte.svg#UTMCharlotte') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -51,7 +51,7 @@ footer {
 
 .cont {
 	width: 100%;
-	max-width: 900px;
+	max-width: 1520px;
 	margin: 0 auto;
 	position: relative;
 }
