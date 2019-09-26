@@ -1,4 +1,75 @@
 @charset "utf-8";
-@media screen and (max-width:1368px){
 
+/* Page middlemen */
+@media screen and (max-width:1120px) {
+    .midbr_sp {
+        display: inline-block;
+    }
+
+    .midbr_pc {
+        display: none;
+    }
+
+    #sec_middlemen a .txt {
+        font-size: 18px;
+    }
 }
+
+@media screen and (max-width:767px) {
+    .hd_middlemen {
+        top: 5px;
+    }
+
+    #sec_middlemen a .txt {
+        font-size: 12px;
+    }
+
+    .hd_middlemen img {
+        max-width: 100px;
+    }
+
+    .ft_middlemen .all_ft .ft_dec .ft_address p {
+        font-size: 12px;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .ft_middlemen .all_ft .ft_dec .ft_address p img {
+        padding-bottom: 5px;
+    }
+
+    .ft_middlemen .all_ft .ft_dec .ft_address p a {
+        font-size: 14px;
+    }
+
+    .ft_middlemen .all_ft .ft_dec .ft_address {
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    .ft_middlemen .ft_copyright {
+        font-size: 12px;
+    }
+
+    .ft_middlemen .all_ft .ft_dec .ft_sns {
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-right: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .ft_middlemen .all_ft .ft_dec .ft_sns a {
+        font-size: 25px;
+        margin-right: 12px;
+    }
+}
+
+/* End Page middlemen */
