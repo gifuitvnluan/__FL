@@ -15,5 +15,12 @@ $(document).ready(function () {
 			$("#sec_middlemen>a").removeClass("a_nohover");
 		}
 	);
+
+	$('.owl-carousel.res_slide').owlCarousel({
+		loop:true,
+		margin:10,
+		nav:true,
+		items:1,
+	})
 	
 });

@@ -11,6 +11,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'UTM Charlotte';
+    src: url('UTMCharlotte.eot');
+    src: url('UTMCharlotte.eot?#iefix') format('embedded-opentype'),
+        url('UTMCharlotte.woff') format('woff'),
+        url('UTMCharlotte.ttf') format('truetype'),
+        url('UTMCharlotte.svg#UTMCharlotte') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 body {
 	margin: 0;
