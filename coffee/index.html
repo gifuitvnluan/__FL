@@ -24,8 +24,7 @@
   <link rel="stylesheet" type="text/css" href="../assets/css/nomalize.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/library.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
   <link rel="stylesheet" type="text/css" href="../style.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/coffee.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/reponsive.css">
@@ -42,14 +41,58 @@
 
   <!-- Header -->
   <header>
-    
-    <!-- End h1 -->
+    <div id="logo">
+			<a href="index.html">
+        <img src="../assets/images/coffee/logo.png" alt="festinalente">
+			</a>
+    </div>
+    <div id="gnav" class="wfont">
+			<ul>
+        <li><a href="index.html" class="active"><span>TOP</span><span>TOP</span></a></li>
+        <li><a href="#menu"><span>MENU</span><span>MENU</span></a></li>
+        <li><a href="#dat-ban/"><span>ĐẶT BÀN</span><span>ĐẶT BÀN</span></a></li>
+        <li><a href="tel:02563535678"><img src="../assets/images/coffee/phone.png" alt="02563535678"></a></li>
+			</ul>
+		</div>
   </header>
   <!-- End header -->
+  <!-- Side bar -->
+  <section>
+      <div id="side-bar">
+        <div id="bnr" class="bg-text"><a href="index.html"><img src="../assets/images/coffee/logo-sidebar.png" alt="logo"></a></div>
+        <div class="wfont page-nav">
+          <ul>
+            <li class="active"><a href="#"></a><span>TOP</span></li>
+            <li><a href="#"></a><span>TOP</span></li>
+            <li><a href="#"></a><span>TOP</span></li>
+          </ul>
+        </div>
+      </div>
+  </section>
+  <!-- End Side bar -->
 
   <!-- Content -->
   <section >
-  cafe
+    <!-- slide -->
+     <div class="head-slide ow">
+        <div class="owl-carousel owl-theme ">
+            <div class="item">
+               <img src="../assets/images/coffee/slide1.jpg" alt="slide1">
+            </div>
+            <div class="item">
+                  <img src="../assets/images/coffee/slide2.jpg" alt="slide2">
+            </div>
+            <div class="item">
+               <img src="../assets/images/coffee/slide3.jpg" alt="slide3">
+            </div>
+           
+        </div>
+      <div class="slide-text">
+        <span>Welcome to Festina Lente Coffee !</span> 
+      </div>
+      </div>
+    <!-- End slide -->
+ 
   </section>
   <!-- End content -->
 
@@ -69,7 +112,23 @@
   <!-- End jquery library -->
 
   <script src="../assets/js/script.js"></script>
-
+  <script>
+      $('.owl-carousel').owlCarousel({
+       loop: true,
+       center: true,
+       autoplay: true,
+       slideSpeed: 100,
+       autoplaySpeed: 500, 
+       navSpeed: 500, 
+       autoplayHoverPause: false, 
+       nav: false, 
+       dots: false, 
+       pagination: false,
+       paginationNumbers: false,
+       animateOut: 'fadeOut',
+       items: 1,
+    });
+    </script>
 </body>
 
 </html>
