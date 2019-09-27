@@ -37,6 +37,25 @@ $(document).ready(function () {
 		$('.owl-carousel.res_slide .owl-stage .item').height($(window).height());
 	 }, 3000);
 	//  $('.owl-carousel.res_slide .owl-stage .item').parallax("50%", 0.05);
+
+	
+	var topBtn = $('.backtop_res'); // khai báo 1 biến topBtn bằng nút có id "back-to-top"
+    topBtn.hide(); // mặc định cho nút ẩn đi
+    $(function() {
+        $(window).scroll(function() { // sự kiện lăn chuột
+            if ($(this).scrollTop() > 100) { // nếu khoảng cách với top lớn hơn 100px
+                topBtn.fadeIn(); // thì hiện nút "back-to-top" lên
+            } else {
+                topBtn.fadeOut(); // ngược lại ẩn nút đi
+            }
+        });
+        topBtn.click(function() { // bắt sự kiện khi click vào nút
+            $('body,html').animate({
+                scrollTop: 0
+            }, 1000); // thời gian di chuyển về đầu trang
+            return false;
+        });
+    });
 	
 	// End page restaurant
 	$(".sp_hamber").click(function() {

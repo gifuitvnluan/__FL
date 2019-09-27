@@ -7,7 +7,7 @@
     width: 100%;
     left: 0;
     top: 0;
-    z-index: 9;
+    z-index: 99;
 }
 
 .hd_all .hd_fix {
@@ -79,13 +79,14 @@
     background: #212121;
 }
 
-.ft_all .backtop {
+.ft_all .backtop_res {
     position: fixed;
     bottom: 105px;
     right: 20px;
+    z-index: 9;
 }
 
-.ft_all .backtop:hover {
+.ft_all .backtop_res:hover {
     cursor: pointer;
     opacity: 0.8;
 }
@@ -212,6 +213,341 @@
     display: none;
 }
 
+#res_wellcome {
+    background: #372f2d;
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
+#res_wellcome .title01 {
+    font-size: 40px;
+    font-family: 'UTM Charlotte';
+    color: #fff;
+    margin-bottom: 65px;
+}
+
+#res_wellcome .txt {
+    font-size: 22px;
+    color: #fff;
+    line-height: 160%;
+    width: 57.764%;
+}
+
+#res_wellcome .img {
+    width: 40.263%;
+    position: relative;
+    z-index: 1;
+}
+
+#res_wellcome .img img {
+    position: relative;
+    z-index: 2;
+    transition: all ease 2s;
+    -webkit-transition: all ease 2s;
+    -moz-transition: all ease 2s;
+    -ms-transition: all ease 2s;
+    -o-transition: all ease 2s;
+}
+
+#res_wellcome .img .img_animate {
+    width: 100%;
+    position: absolute;
+
+    text-align: center;
+}
+
+#res_wellcome .div_wellcome {
+    margin-bottom: 26px;
+}
+
+#res_wellcome .div_wellcome .img::after {
+    content: url(../images/restaurant/bg_01.png);
+    position: absolute;
+    z-index: 1;
+    top: -66px;
+    left: -68px;
+}
+
+#res_wellcome .div_wellcome2 .img::after {
+    content: url(../images/restaurant/bg_02.png);
+    position: absolute;
+    z-index: 1;
+    top: -27px;
+    right: -142px;
+}
+
+#res_wellcome .div_wellcome .txt {
+    margin-right: 1.973%;
+}
+
+#res_wellcome .div_wellcome2 .img {
+    margin-right: 1.973%;
+    order: -1;
+}
+
+#res_wellcome .row_flex.div_wellcome2 {
+    align-items: flex-end;
+}
+
+#res_wellcome .row_flex.div_wellcome2 .txt {
+    padding-bottom: 38px;
+}
+
+#res_gallery{
+    padding-top: 75px;
+    padding-bottom: 70px;
+}
+
+#res_gallery .row_gallery {
+    width: 100%;
+    max-width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#res_gallery .row_gallery .gallery_left {
+    width: 39.43%;
+    margin-right: 2.032%;
+}
+
+#res_gallery .row_gallery .gallery_left .div_bg{
+    background-image: url(../images/restaurant/bg_04.png);
+    background-size: auto;
+    background-position: top right;
+    background-repeat: no-repeat;
+    padding-top: 22px;
+    margin-top: 65px;
+}
+
+#res_gallery .row_gallery .gallery_left .img{
+    margin-top: 73px;
+    padding-left: 72px;
+}
+
+#res_gallery .row_gallery .gallery_right {
+    width: 58.538%;
+}
+
+#res_gallery .row_gallery .gallery_right .div_bg {
+    background-image: url(../images/restaurant/bg_03.png);
+    background-position: top right;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: -20px;
+}
+
+#res_gallery .row_gallery .gallery_right .div_bg .txt {
+    font-size: 40px;
+    color: #fff;
+    line-height: 100%;
+    background: #000000;
+    font-family: 'UTM Charlotte';
+    display: inline-block;
+    padding-left: 65px;
+    padding-right: 65px;
+    height: 73px;
+    line-height: 73px;
+    position: absolute;
+    z-index: 9;
+}
+#res_gallery .row_gallery .gallery_right .div_bg .div_img{
+    position: relative;
+    display: inline-block;
+}
+
+#res_gallery .row_gallery .gallery_right .div_bg .div_img .icon_animate{
+    position: absolute;
+    right: -190px;
+    bottom: 185px;
+    transition: all ease 3s;
+    -webkit-transition: all ease 3s;
+    -moz-transition: all ease 3s;
+    -ms-transition: all ease 3s;
+    -o-transition: all ease 3s;
+}
+
+#res_gallery .row_gallery .gallery_right .div_bg .div_img01 .txt{
+    bottom: -17px;
+    right: -10px;
+}
+
+#res_gallery .row_gallery .gallery_right .div_bg .div_img01{
+    margin-bottom: 50px;
+}
+
+#res_gallery .row_gallery .gallery_right .div_bg .div_img02 .txt{
+    top: -36px;
+    left: -150px;
+}
+
+#res_full .bg_left{
+    background-image: url(../images/restaurant/res_img07.jpg);
+}
+
+#res_full .bg_right{
+    background-image: url(../images/restaurant/res_img08.jpg);
+}
+
+#res_full .bg_right,#res_full .bg_left{
+    float: left;
+    width: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 740px;
+}
+
+#res_menu{
+    padding-top: 55px;
+    background-image: url(../images/restaurant/bg_07.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#res_menu .cont .bg_menu{
+    background-image: url(../images/restaurant/menu_bg01.png);
+    background-repeat: no-repeat;
+    float: left;
+    padding-bottom: 43px;
+}
+
+#res_menu .cont .bg_menu .right_menu{
+    width: 100%;
+    max-width: 54.605%;
+    margin-left: auto;
+    margin-right: 0.723%;
+}
+
+#res_menu .cont .bg_menu .right_menu .title01{
+    margin-top: 42px;
+    float: left;
+}
+
+#res_menu .cont .bg_menu .right_menu .row_menu01{
+    margin-top: 44px;
+    float: left;
+}
+
+#res_menu .cont .bg_menu .right_menu .row_flex{
+    padding-left: 40px;
+    align-items: flex-start;
+    width: 100%;
+    float: left;
+}
+#res_menu .cont .bg_menu .right_menu .row_flex .div{
+    display: inline-block;
+}
+
+#res_menu .cont .bg_menu .right_menu .row_flex .div img{
+    transition: transform ease 0.5s;
+    -webkit-transition: transform ease 0.5s;
+    -moz-transition: transform ease 0.5s;
+    -ms-transition: transform ease 0.5s;
+    -o-transition: transform ease 0.5s;
+}
+
+#res_menu .cont .bg_menu .right_menu .row_flex .div img:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+#res_menu .cont .bg_menu .right_menu .row_menu01 .div{
+    margin-left: 18px;
+    padding-top: 11px;
+}
+
+#res_menu .cont .bg_menu .right_menu .row_menu01 img{
+    vertical-align: top;
+}
+
+#res_menu .cont .bg_menu .right_menu .row_menu02{
+    margin-top: 63px;
+}
+
+#res_menu .cont .bg_menu .right_menu .row_menu02 .div{
+    margin-top: -15px;
+    margin-left: -32px;
+}
+
+#res_menu .cont .bg_menu .right_menu .row_menu03{
+    margin-top: 45px;
+}
+
+#res_menu .cont .bg_menu .right_menu .row_menu03 .div{
+    margin-top: -33px;
+    margin-left: 10px;
+}
+
+#res_menu .cont .bg_menu .right_menu .title02 {
+    margin-top: 80px;
+    float: left;
+}
+
+#res_menu .cont .bg_menu .right_menu .row_menu04{
+    margin-top: 55px;
+}
+
+#res_menu .cont .bg_menu .right_menu .row_menu04 .div{
+    margin-top: -30px;
+    margin-left: -5px
+}
+
+#res_menu .cont .bg_menu .right_menu .row_menu05{
+    margin-top: 42px;
+}
+
+#res_menu .cont .bg_menu .right_menu .row_menu05 .div{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#res_menu .cont .bg_menu .right_menu .row_menu06{
+    margin-top: 48px;
+}
+
+#res_menu .cont .bg_menu .right_menu .row_menu06 .div{
+    margin-top: -22px;
+    margin-left: 25px;
+}
+
+#res_menu .menu_btn{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 37px;
+}
+
+#res_menu .menu_btn a{
+    font-size: 30px;
+    color: #fff;
+    background: #771314;
+    display: inline-block;
+    font-family: 'UTM Charlotte';
+    line-height: 100%;
+    padding-top: 10px;
+    padding-bottom: 17px;
+    width: 200px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    margin-bottom: 48px;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+}
+
+#res_menu .menu_btn a:hover{
+    color: #771314;
+    background: #fff;
+    border: 1px solid #771314;
+}
+
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes runtxt {
     from {
@@ -303,11 +639,11 @@
         color: #fff;
         background: #212121;
         padding: 5px 7px;
-        border-radius: 5px    ;
-        -webkit-border-radius: 5px    ;
-        -moz-border-radius: 5px    ;
-        -ms-border-radius: 5px    ;
-        -o-border-radius: 5px    ;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
         border: 1px solid #fff;
         cursor: pointer;
         z-index: 11;
@@ -315,6 +651,7 @@
 
     #res_slide .slide_text .slide_scroll {
         margin-top: 12px;
+        max-width: 10px;
     }
 
     #res_slide .slide_text .slide_title {
@@ -358,15 +695,17 @@
         right: -100%;
         padding-top: 80px;
         padding-bottom: 20px;
-        transition: all ease 0.5s    ;
-        -webkit-transition: all ease 0.5s    ;
-        -moz-transition: all ease 0.5s    ;
-        -ms-transition: all ease 0.5s    ;
-        -o-transition: all ease 0.5s    ;
-}
+        transition: all ease 0.5s;
+        -webkit-transition: all ease 0.5s;
+        -moz-transition: all ease 0.5s;
+        -ms-transition: all ease 0.5s;
+        -o-transition: all ease 0.5s;
+        height: 100vh;
+        align-items: center;
+    }
 
-    .hd_all .hd_fix .hd_menu.active{
-        right:0%;
+    .hd_all .hd_fix .hd_menu.active {
+        right: 0%;
     }
 
     .hd_all .hd_fix .hd_menu ul {
@@ -383,8 +722,8 @@
     }
 
     .hd_all .hd_fix .hd_menu ul li a {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
         display: block;
         border-bottom: 1px dashed #fff;
     }
