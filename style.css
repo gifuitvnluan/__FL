@@ -190,6 +190,15 @@ span.pages {
 	align-items: stretch;
 }
 
+.anchor_fixtop {
+    display: block;
+    position: relative;
+    top: -130px; 
+    width: 100%;
+    visibility: hidden;
+}
+
+
 
 /*End css pagenation*/
 

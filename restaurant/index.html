@@ -19,6 +19,8 @@
 
   <!-- Css reset -->
   <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/owl.carousel.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/nomalize.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/library.css">
@@ -51,16 +53,16 @@
         <!-- End .hd_logo -->
         <div class="hd_menu">
           <ul>
-            <li><a href="#">TOP</a></li>
-            <li><a href="#">MENU</a></li>
-            <li><a href="#">ĐẶT BÀN</a></li>
+            <li><a href="#res_wellcome_id">TOP</a></li>
+            <li><a href="#res_menu_id">MENU</a></li>
+            <li><a href="#res_time_id">ĐẶT BÀN</a></li>
           </ul>
           <a href="tel:02563535678" class="hd_tel"><img src="../assets/images/restaurant/hd_tel.png" alt="0256 3535 678"
               class="hv-o"></a>
         </div>
         <!-- End .hd_menu -->
         <div class="sp_hamber">
-          <i class="fas fa-bars"></i>
+            <i class="fas fa-list"></i>
         </div>
       </div>
       <!-- End .hd_fix -->
@@ -93,7 +95,7 @@
       </div>
       <!-- End .cont -->
       <div>
-        <a href="#" class="slide_scroll"><img class="hv-o" src="../assets/images/restaurant/slide_scroll.png"
+        <a href="#res_wellcome_id" class="slide_scroll"><img class="hv-o" src="../assets/images/restaurant/slide_scroll.png"
             alt="Scroll"></a>
       </div>
     </div>
@@ -103,6 +105,7 @@
 
   <section id="res_wellcome">
     <div class="cont">
+      <div class="anchor_fixtop row" id="res_wellcome_id"></div>
       <h3 class="title01" data-aos="fade-up">
         GIỚI THIỆU
       </h3>
@@ -118,12 +121,12 @@
           như bia mát lạnh và những loại rượu vang ngon nức tiếng từ Ý & Nhật.
         </div>
         <!-- End .txt -->
-        <div class="img" data-aos="fade-up">
+        <div class="img" data-aos="fade-up" data-aos-duration="1000">
           <img src="../assets/images/restaurant/res_img01.jpg" alt="GIỚI THIỆU">
           <div class="img_animate">
             <img src="../assets/images/restaurant/res_img03.png" alt="GIỚI THIỆU" data-screen-pc data-screen-pc
-              data-600="transform:translateY(-82px) rotate(0deg);"
-              data-2242="transform:translateY(30px) rotate(10deg);">
+              data-600="transform:translate(-50%, -82px) rotate(0deg);"
+              data-2242="transform:translate(-50%, 30px) rotate(10deg);">
           </div>
         </div>
         <!-- End .img -->
@@ -137,7 +140,7 @@
           nhà hàng 5 sao. Thật khó mà tìm kiếm được một nhà hàng như thế này giữa đất Quy Nhơn nhộn nhịp và tấp nập.
         </div>
         <!-- End .txt -->
-        <div class="img" data-aos="fade-up">
+        <div class="img" data-aos="fade-up" data-aos-duration="1000">
           <img src="../assets/images/restaurant/res_img02.jpg" alt="GIỚI THIỆU">
         </div>
         <!-- End .img -->
@@ -151,8 +154,9 @@
     <div class="cont">
       <div class="row_flex row_gallery">
         <div class="gallery_left">
-          <div class="div_bg" data-aos="fade-up">
-            <img src="../assets/images/restaurant/res_img04.jpg" alt="KHÔNG GIAN">
+          <div class="div_bg">
+            <img src="../assets/images/restaurant/res_img04.jpg" alt="KHÔNG GIAN" data-aos="fade-up"
+              data-aos-duration="1000">
           </div>
           <!-- End .div_bg -->
           <div class="img">
@@ -163,14 +167,16 @@
         <div class="gallery_right">
           <div class="div_bg">
             <div class="div_img div_img01">
-              <img src="../assets/images/restaurant/res_img05.jpg" alt="ẨM THỰC" data-aos="fade-up">
+              <img src="../assets/images/restaurant/res_img05.jpg" alt="ẨM THỰC" data-aos="fade-up"
+                data-aos-duration="1000">
               <div class="txt" data-aos="fade-up" data-aos-delay="200">
                 ẨM THỰC
               </div>
             </div>
             <!-- End .div_img01 -->
             <div class="div_img div_img02">
-              <img src="../assets/images/restaurant/res_img06.jpg" alt="KHÔNG GIAN" data-aos="fade-up">
+              <img src="../assets/images/restaurant/res_img06.jpg" alt="KHÔNG GIAN" data-aos="fade-up"
+                data-aos-duration="1000">
               <div class="txt" data-aos="fade-up" data-aos-delay="200">
                 KHÔNG GIAN
               </div>
@@ -199,6 +205,10 @@
 
   <section id="res_menu">
     <div class="cont">
+      <div class="anchor_fixtop row" id="res_menu_id"></div>
+      <div class="menu_sp" data-aos="fade-up" data-aos-duration="1000">
+        <img src="../assets/images/restaurant/res_menu.png" alt="MENU">
+      </div>
       <div class="bg_menu">
         <div class="right_menu">
           <div class="title01">
@@ -207,23 +217,23 @@
           <!-- End .title01 -->
           <div class="row_menu01 row_flex">
             <img src="../assets/images/restaurant/menu_txt01.png" alt="STEAK THĂN NGOẠI BÒ MỸ" data-aos="fade-up">
-            <div class="div" data-aos="fade-up" data-aos-delay="200">
+            <div class="div" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
               <img src="../assets/images/restaurant/menu_img01.png" alt="STEAK THĂN NGOẠI BÒ MỸ">
             </div>
           </div>
           <!-- End .row_menu01 -->
           <div class="row_menu02 row_flex">
             <img src="../assets/images/restaurant/menu_txt02.png" alt="SƯỜN CỪU NƯỚNG TẢNG SỐT BBQ" data-aos="fade-up">
-            <div class="div" data-aos="fade-up" data-aos-delay="200">
-            <img src="../assets/images/restaurant/menu_img02.png" alt="SƯỜN CỪU NƯỚNG TẢNG SỐT BBQ">
-          </div>
+            <div class="div" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+              <img src="../assets/images/restaurant/menu_img02.png" alt="SƯỜN CỪU NƯỚNG TẢNG SỐT BBQ">
+            </div>
           </div>
           <!-- End .row_menu02 -->
           <div class="row_menu03 row_flex">
             <img src="../assets/images/restaurant/menu_txt03.png" alt="LẨU BÒ MỸ THƯỢNG HẠNG" data-aos="fade-up">
-            <div class="div" data-aos="fade-up" data-aos-delay="200">
-            <img src="../assets/images/restaurant/menu_img03.png" alt="LẨU BÒ MỸ THƯỢNG HẠNG">
-          </div>
+            <div class="div" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+              <img src="../assets/images/restaurant/menu_img03.png" alt="LẨU BÒ MỸ THƯỢNG HẠNG">
+            </div>
           </div>
           <!-- End .row_menu03 -->
           <div class="title02">
@@ -231,24 +241,26 @@
           </div>
           <!-- End .title02 -->
           <div class="row_menu04 row_flex">
-            <img src="../assets/images/restaurant/menu_txt04.png" alt="BA CHỈ BÒ MỸ CUỘN NẤM KIM CHÂM" data-aos="fade-up">
-            <div class="div" data-aos="fade-up" data-aos-delay="200">
-            <img src="../assets/images/restaurant/menu_img04.png" alt="BA CHỈ BÒ MỸ CUỘN NẤM KIM CHÂM">
-          </div>
+            <img src="../assets/images/restaurant/menu_txt04.png" alt="BA CHỈ BÒ MỸ CUỘN NẤM KIM CHÂM"
+              data-aos="fade-up">
+            <div class="div" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+              <img src="../assets/images/restaurant/menu_img04.png" alt="BA CHỈ BÒ MỸ CUỘN NẤM KIM CHÂM">
+            </div>
           </div>
           <!-- End .row_menu04 -->
           <div class="row_menu05 row_flex">
-            <img src="../assets/images/restaurant/menu_txt05.png" alt="FILLET BÒ ÚC CUỘN PHÔ MAI MOZZARELLA" data-aos="fade-up">
-            <div class="div" data-aos="fade-up" data-aos-delay="200">
-            <img src="../assets/images/restaurant/menu_img05.png" alt="FILLET BÒ ÚC CUỘN PHÔ MAI MOZZARELLA">
-          </div>
+            <img src="../assets/images/restaurant/menu_txt05.png" alt="FILLET BÒ ÚC CUỘN PHÔ MAI MOZZARELLA"
+              data-aos="fade-up">
+            <div class="div" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+              <img src="../assets/images/restaurant/menu_img05.png" alt="FILLET BÒ ÚC CUỘN PHÔ MAI MOZZARELLA">
+            </div>
           </div>
           <!-- End .row_menu05 -->
           <div class="row_menu06 row_flex">
             <img src="../assets/images/restaurant/menu_txt06.png" alt="CÁ HỒI NA UY NƯỚNG CAM VÀNG" data-aos="fade-up">
-            <div class="div" data-aos="fade-up" data-aos-delay="200">
-            <img src="../assets/images/restaurant/menu_img06.png" alt="CÁ HỒI NA UY NƯỚNG CAM VÀNG">
-          </div>
+            <div class="div" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+              <img src="../assets/images/restaurant/menu_img06.png" alt="CÁ HỒI NA UY NƯỚNG CAM VÀNG">
+            </div>
           </div>
           <!-- End .row_menu06 -->
         </div>
@@ -266,16 +278,178 @@
 
   <section id="res_time">
     <div class="cont">
+      <div class="anchor_fixtop row" id="res_time_id"></div>
       <div class="title">
         ĐẶT BÀN
       </div>
+      <!-- End .title -->
       <div class="txt">
         Đặt bàn ngay để có thể thưởng thức những hương vị mới
+      </div>
+      <!-- End .txt -->
+      <div class="form_time">
+        <div class="ib_form ib_people">
+          <div class="ib_dislay"><span class="txt_value">2 người</span></div>
+          <select class="select_people">
+            <option value="1">1 người</option>
+            <option value="2" selected="selected">2 người</option>
+            <option value="3">3 người</option>
+            <option value="4">4 người</option>
+            <option value="5">5 người</option>
+            <option value="6">6 người</option>
+            <option value="7">7 người</option>
+            <option value="8">8 người</option>
+            <option value="9">9 người</option>
+            <option value="10">10 người</option>
+            <option value="11">11 người</option>
+            <option value="12">12 người</option>
+            <option value="13">13 người</option>
+            <option value="14">14 người</option>
+            <option value="15">15 người</option>
+            <option value="16">16 người</option>
+            <option value="17">17 người</option>
+            <option value="18">18 người</option>
+            <option value="19">19 người</option>
+            <option value="20">20 người</option>
+          </select>
+        </div>
+        <!-- End .ib_people -->
+        <div class="ib_form ib_date">
+          <div class="ib_dislay"><span class="txt_value">28/09/2019</span></div>
+          <input type="text" class="datepicker">
+        </div>
+        <!-- End .ib_date -->
+        <div class="ib_form ib_time">
+          <div class="ib_dislay"><span class="txt_value">7:00 AM</span></div>
+          <select class="select_time">
+            <option value="12:00 AM">12:00 AM</option>
+            <option value="12:30 AM">12:30 AM</option>
+            <option value="1:00 AM">1:00 AM</option>
+            <option value="1:30 AM">1:30 AM</option>
+            <option value="2:00 AM">2:00 AM</option>
+            <option value="2:30 AM">2:30 AM</option>
+            <option value="03:00 AM">3:00 AM</option>
+            <option value="03:30 AM">3:30 AM</option>
+            <option value="04:00 AM">4:00 AM</option>
+            <option value="04:30 AM">4:30 AM</option>
+            <option value="05:00 AM">5:00 AM</option>
+            <option value="05:30 AM">5:30 AM</option>
+            <option value="06:00 AM">6:00 AM</option>
+            <option value="06:30 AM">6:30 AM</option>
+            <option value="07:00 AM" selected="selected">7:00 AM</option>
+            <option value="07:30 AM">7:30 AM</option>
+            <option value="08:00 AM">8:00 AM</option>
+            <option value="08:30 AM">8:30 AM</option>
+            <option value="09:00 AM">9:00 AM</option>
+            <option value="09:30 AM">9:30 AM</option>
+            <option value="10:00 AM">10:00 AM</option>
+            <option value="10:30 AM">10:30 AM</option>
+            <option value="11:00 AM">11:00 AM</option>
+            <option value="11:30 AM">11:30 AM</option>
+            <option value="12:00 PM">12:00 PM</option>
+            <option value="12:30 PM">12:30 PM</option>
+            <option value="1:00 PM">1:00 PM</option>
+            <option value="1:30 PM">1:30 PM</option>
+            <option value="2:00 PM">2:00 PM</option>
+            <option value="2:30 PM">2:30 PM</option>
+            <option value="3:00 PM">3:00 PM</option>
+            <option value="3:30 PM">3:30 PM</option>
+            <option value="4:00 PM">4:00 PM</option>
+            <option value="4:30 PM">4:30 PM</option>
+            <option value="5:00 PM">5:00 PM</option>
+            <option value="5:30 PM">5:30 PM</option>
+            <option value="6:00 PM">6:00 PM</option>
+            <option value="6:30 PM">6:30 PM</option>
+            <option value="7:00 PM">7:00 PM</option>
+            <option value="7:30 PM">7:30 PM</option>
+            <option value="8:00 PM">8:00 PM</option>
+            <option value="8:30 PM">8:30 PM</option>
+            <option value="9:00 PM">9:00 PM</option>
+            <option value="9:30 PM">9:30 PM</option>
+            <option value="10:00 PM">10:00 PM</option>
+            <option value="10:30 PM">10:30 PM</option>
+            <option value="11:00 PM">11:00 PM</option>
+            <option value="11:30 PM">11:30 PM</option>
+          </select>
+        </div>
+        <!-- End .ib_time -->
+        <a href="#" class="btn_time"><i class="fas fa-search"></i> Tìm bàn</a>
+      </div>
+      <!-- End .form_time -->
+      <div class="time_img">
+        <ul>
+          <li>
+            <div class="img"><img src="../assets/images/restaurant/res_img09.jpg" alt="ĐẶT BÀN" data-aos="fade-up"
+                data-aos-duration="1000"></div>
+          </li>
+          <li>
+            <div class="img"><img src="../assets/images/restaurant/res_img10.jpg" alt="ĐẶT BÀN" data-aos="fade-up"
+                data-aos-duration="1000"></div>
+          </li>
+          <li>
+            <div class="img"><img src="../assets/images/restaurant/res_img11.jpg" alt="ĐẶT BÀN" data-aos="fade-up"
+                data-aos-duration="1000"></div>
+          </li>
+          <li>
+            <div class="img"><img src="../assets/images/restaurant/res_img12.jpg" alt="ĐẶT BÀN" data-aos="fade-up"
+                data-aos-duration="1000"></div>
+          </li>
+        </ul>
       </div>
     </div>
     <!-- End .cont -->
   </section>
   <!-- End .res_time -->
+
+  <section id="res_info">
+    <div class="cont">
+      <div class="info_cont">
+        <div class="title">
+          THÔNG TIN LIÊN HỆ
+        </div>
+        <!-- End .title -->
+        <div class="row_flex">
+          <div class="info_right" data-aos="fade-up">
+            <table>
+              <tr>
+                <td>Liên hệ/ đặt bàn:</td>
+                <td><a href="tel:02563535678" class="link link_tel">0256 3535 678</a></td>
+              </tr>
+              <tr>
+                <td>Mail:</td>
+                <td><a href="mailto:info@festinalente.vn" class="link">info@festinalente.vn</a></td>
+              </tr>
+              <tr>
+                <td>Mở cửa:</td>
+                <td>7:00 - 22:00</td>
+              </tr>
+              <tr>
+                <td>Ngày làm việc:</td>
+                <td>thứ 2 - chủ nhật</td>
+              </tr>
+              <tr>
+                <td>Địa chỉ:</td>
+                <td>đường Nguyễn Thị Định, P. Nguyễn Văn Cừ, Quy Nhơn,<br>Bình Định( đối diện 226 Nguyễn Thị Định)</td>
+              </tr>
+            </table>
+          </div>
+          <!-- end .info_right -->
+          <div class="info_left row_flex">
+            <div class="img_left" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000"></div>
+            <div class="img_right" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000"></div>
+          </div>
+          <!-- End .info_left -->
+        </div>
+        <!-- End .row_flex -->
+      </div>
+      <!-- end .info_cont -->
+    </div>
+    <!-- End .cont -->
+    <div class="row_map ">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.393196475369!2d109.21037351527409!3d13.755146000920849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316f6d9eab3d728f%3A0xf2f0b5357a038fe9!2sFestina%20Lente%20Restaurant%20%26%20Coffee!5e0!3m2!1svi!2s!4v1569640931067!5m2!1svi!2s"></iframe>
+    </div>
+  </section>
+  <!-- End .res_info -->
 
   <!-- End content -->
 
@@ -310,6 +484,7 @@
   <!-- Jquery library -->
   <script src="../assets/js/jquery-3.4.1.js"></script>
   <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
   <script src="../assets/js/owl.carousel.js"></script>
   <script src="../assets/js/aos.js"></script>
   <script type="text/javascript" src="../assets/js/jquery.parallax-1.1.3.js"></script>
@@ -319,10 +494,19 @@
   <!-- End jquery library -->
   <script type="text/javascript">
     $(function () {
-      skrollr.init({
-        forceHeight: true
-      });
+      if($(window).width()>767){
+        skrollr.init({
+          forceHeight: true
+        });
+      }
+
       AOS.init();
+
+      $('.datepicker').datepicker({
+        format: 'dd/mm/yyyy',
+        todayHighlight: true,
+        // todayBtn: "linked",
+      });
     });
   </script>
 

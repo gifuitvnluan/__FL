@@ -55,10 +55,38 @@ $(document).ready(function () {
             }, 1000); // thời gian di chuyển về đầu trang
             return false;
         });
-    });
+	});
+	// back top
 	
-	// End page restaurant
 	$(".sp_hamber").click(function() {
 		$(".hd_all .hd_fix .hd_menu").toggleClass("active");
+	});
+	// menu sp
+
+	$(window).scroll(function() { 
+		if ($(this).scrollTop() > 130) { 
+			$(".hd_all").addClass("scroll_bg");
+		} else {
+			$(".hd_all").removeClass("scroll_bg");
+		}
+	});
+	
+	// End page restaurant
+
+	$('.hd_all .hd_fix .hd_menu ul li a, #res_slide .slide_text .slide_scroll').click(function () {
+		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+			if (target.length) {
+				$('html,body').animate({
+					scrollTop: target.offset().top - 50
+				}, 900);
+				return false;
+			} else {
+				$('html,body').animate({
+					scrollTop: target.offset().top - 0
+				}, 900);
+			}
+		}
 	});
 });
