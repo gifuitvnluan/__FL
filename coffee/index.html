@@ -15,7 +15,7 @@
   <!-- End keywords & Description -->
 
   <!-- Favicon -->
-  <!--<link rel="shortcut icon" href="fav-ico.png" type="image/x-icon" />-->
+  <link rel="shortcut icon" href="../assets/images/middlemen/fav.png" type="image/x-icon" />
   <!-- End favicon -->
 
   <!-- Css reset -->
@@ -24,7 +24,8 @@
   <link rel="stylesheet" type="text/css" href="../assets/css/nomalize.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/library.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
   <link rel="stylesheet" type="text/css" href="../style.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/coffee.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/reponsive.css">
@@ -42,63 +43,69 @@
   <!-- Header -->
   <header>
     <div id="logo">
-			<a href="index.html">
+      <a href="../index.html">
         <img src="../assets/images/coffee/logo.png" alt="festinalente">
-			</a>
+      </a>
     </div>
     <div id="gnav" class="wfont">
-			<ul>
-        <li><a href="index.html" class="active"><span>TOP</span><span>TOP</span></a></li>
+      <ul>
+        <li><a href="#top" class="active"><span>TOP</span><span>TOP</span></a></li>
         <li><a href="#menu"><span>MENU</span><span>MENU</span></a></li>
-        <li><a href="#dat-ban/"><span>ĐẶT BÀN</span><span>ĐẶT BÀN</span></a></li>
+        <li><a href="#time"><span>ĐẶT BÀN</span><span>ĐẶT BÀN</span></a></li>
         <li><a href="tel:02563535678"><img src="../assets/images/coffee/phone.png" alt="02563535678"></a></li>
-			</ul>
-		</div>
+      </ul>
+    </div>
   </header>
   <!-- End header -->
   <!-- Side bar -->
   <section>
-      <div id="side-bar">
-        <div id="bnr" class="bg-text"><a href="index.html"><img src="../assets/images/coffee/logo-sidebar.png" alt="logo"></a></div>
-        <div class="wfont page-nav">
-          <ul>
-            <li class="active"><a href="#"></a><span>TOP</span></li>
-            <li><a href="#"></a><span>TOP</span></li>
-            <li><a href="#"></a><span>TOP</span></li>
-          </ul>
-        </div>
+    <div id="side-bar">
+      <div id="bnr" class="bg-text"><a href="index.html"><img src="../assets/images/coffee/logo-sidebar.png"
+            alt="logo"></a></div>
+      <div class="wfont page-nav show">
+        <ul>
+          <li class="active"><a href="#top"></a><span>TOP</span></li>
+          <li class=""><a href="#menu"></a><span>MENU</span></li>
+          <li class=""><a href="#time"></a><span>ĐẶT BÀN</span></li>
+        </ul>
       </div>
+    </div>
   </section>
   <!-- End Side bar -->
 
   <!-- Content -->
-  <section >
-    <!-- slide -->
-     <div class="head-slide ow">
-        <div class="owl-carousel owl-theme ">
-            <div class="item">
-               <img src="../assets/images/coffee/slide1.jpg" alt="slide1">
-            </div>
-            <div class="item">
-                  <img src="../assets/images/coffee/slide2.jpg" alt="slide2">
-            </div>
-            <div class="item">
-               <img src="../assets/images/coffee/slide3.jpg" alt="slide3">
-            </div>
-           
+  <section id="coffee_slide" class="testsec">
+    <div class="all_slide">
+      <div class="owl-carousel owl-theme">
+        <div class="item" style="background-image: url(../assets/images/coffee/slide1.jpg);"></div>
+        <div class="item" style="background-image: url(../assets/images/coffee/slide2.jpg);"></div>
+        <div class="item" style="background-image: url(../assets/images/coffee/slide3.jpg);"></div>
+      </div>
+      <!-- End .owl-carousel -->
+      <div class="slide_text">
+        <div class="cont_slide">
+          <div class="ov_hid">
+            <div class="slide_title">Welcome to Festina Lente Coffee !</div>
+          </div>
         </div>
-      <div class="slide-text">
-        <span>Welcome to Festina Lente Coffee !</span> 
+        <!-- End .cont -->
       </div>
-      </div>
-    <!-- End slide -->
- 
+      <!-- End .slide_text -->
+    </div>
+    <!-- End .all_slide -->
+  </section>
+
+  <section class="testsec" style="height: 100vh; background: rebeccapurple">
+
+  </section>
+  <section class="testsec" style="height: 100vh; background: green">
+
   </section>
   <!-- End content -->
 
   <!-- Footer -->
   <footer>
-   
+
   </footer>
   <!-- End footer -->
 
@@ -112,23 +119,6 @@
   <!-- End jquery library -->
 
   <script src="../assets/js/script.js"></script>
-  <script>
-      $('.owl-carousel').owlCarousel({
-       loop: true,
-       center: true,
-       autoplay: true,
-       slideSpeed: 100,
-       autoplaySpeed: 500, 
-       navSpeed: 500, 
-       autoplayHoverPause: false, 
-       nav: false, 
-       dots: false, 
-       pagination: false,
-       paginationNumbers: false,
-       animateOut: 'fadeOut',
-       items: 1,
-    });
-    </script>
 </body>
 
 </html>
