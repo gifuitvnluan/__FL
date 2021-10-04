@@ -19,6 +19,7 @@
 
     #sec_middlemen a .txt {
         font-size: 18px;
+        position: absolute;
     }
 }
 
